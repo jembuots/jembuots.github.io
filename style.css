@@ -2,9 +2,9 @@ body {
   background-size: cover;
   background-position: 50%;
   overflow-x: hidden;
-  font-family: jokermen;
-  font-size: 16px;
-  line-height: 1.6rem;
+  font-family: Bell MT;
+  font-size: 17px;
+  line-height: 1.7rem;
   color: black;
 }
 * {
@@ -49,7 +49,7 @@ html {
 .videobgbox:after {
   content: "";
   display: block;
-  background: #0005;
+  background: #0006;
   background-size: 2px 2px;
   z-index: 0;
   width: 100%;
@@ -68,7 +68,7 @@ html {
 .btn {
   width: 91%;
   height: 3rem;
-  line-height: 4rem;
+  line-height: 3rem;
   padding: 1.5rem;
   position: relative;
   display: inline-block;
@@ -89,9 +89,9 @@ html {
 }
 .btn--primary {
   margin-left: 1.4rem;
-  color: white;
+  color: azure;
   background-color: hotpink;
-  border: 2px solid white;
+  border: 2px solid aliceblue;
   box-shadow: 3px 3px -1px -1px #a2ff00;
   /* margin-left: 2rem;
   color: #fff;
@@ -103,7 +103,7 @@ html {
 .btn--primary:hover {
   color: whitesmoke;
   background: gray;
-  border: 3px solid honeydew;
+  border: 2px solid honeydew;
   box-shadow: 3px 3px -1px -1px #a2ff00;
   /* background: #ca0e0e;
   background-image: linear-gradient(270deg, #b943b9, #ca0e0e);
